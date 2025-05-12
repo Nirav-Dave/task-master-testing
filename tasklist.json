@@ -1,0 +1,26 @@
+[
+  {
+    "id": "task-001",
+    "description": "Write unit test for add() function",
+    "type": "test",
+    "status": "done"
+  },
+  {
+    "id": "task-002",
+    "description": "Implement add() function",
+    "type": "impl",
+    "depends_on": [
+      "task-001"
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "task-003",
+    "description": "Verify add() test passes",
+    "type": "test_verify",
+    "depends_on": [
+      "task-002"
+    ],
+    "status": "pending"
+  }
+]

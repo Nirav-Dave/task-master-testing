@@ -1,0 +1,9 @@
+{
+  "api_provider": "openai",
+  "openai_api_key": "YOUR_OPENAI_KEY_HERE",
+  "openai_model": "gpt-4",
+  "temperature": 0.5,
+  "max_tokens": 2048,
+  "task_output_file": "tasklist.json",
+  "prompt_file": "prompts/task_decomposition_prompt.txt"
+}
